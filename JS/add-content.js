@@ -1,6 +1,5 @@
 var today= new Date();
-var hourNow = prompt ('please enter a number')
-
+var hourNow = today.getHours();
 var greeting;
 if (hourNow > 18) {
 greeting= 'Good evening!';
